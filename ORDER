@@ -1,0 +1,35 @@
+//F
+  FEF
+  FEFDEF
+
+
+
+
+
+
+int main()
+{ char uppercase_letter;
+  char c1,c2;
+  do
+  { printf("enter a uppercase letter : ");
+   scanf("%c",&uppercase_letter);
+    }while(uppercase_letter<'A'||uppercase_letter>'Z');
+
+
+    for (c2='F';c2>=uppercase_letter;c2--)
+    {   for (c1='F';c1>c2;c1--)
+        {printf("%c",c1);
+
+
+        }
+
+         for (;'F'>=c1;c1++)
+       {
+         printf("%c",c1);
+
+
+        }printf("\n");
+
+
+    }
+}
